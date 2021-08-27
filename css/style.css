@@ -366,7 +366,7 @@ footer .footer-container .social-links .copyright p {
   color: #ebfbff;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 426px) {
   header nav {
     width: 80%;
     height: 6em;
