@@ -303,8 +303,8 @@ footer .footer-container .fLinks span a {
   text-decoration: none;
   color: #fff;
   font-weight: 400;
-  -webkit-transition: 300ms ease;
-  transition: 300ms ease;
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
 }
 
 footer .footer-container .social-links {
@@ -323,18 +323,6 @@ footer .footer-container .social-links .social-icons {
           justify-content: center;
 }
 
-footer .footer-container .social-links .social-icons .facebook {
-  background-image: url(../images/facebook-f-brands.svg);
-}
-
-footer .footer-container .social-links .social-icons .insta {
-  background-image: url(../images/instagram-brands.svg);
-}
-
-footer .footer-container .social-links .social-icons .tiwtter {
-  background-image: url(../images/twitter-brands.svg);
-}
-
 footer .footer-container .social-links .social-icons .icon {
   display: inline-block;
   height: 34px;
@@ -345,10 +333,40 @@ footer .footer-container .social-links .social-icons .icon {
   margin-left: 15px;
   margin-bottom: 2em;
   background-size: 70% 70%;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+footer .footer-container .social-links .social-icons .facebook {
+  background-image: url(../images/facebook-f-brands.svg);
+}
+
+footer .footer-container .social-links .social-icons .facebook:hover {
+  cursor: pointer;
+  background-image: url(../images/facebook-f-brands-pink.svg);
+  border: 1px solid #ff52bf;
+}
+
+footer .footer-container .social-links .social-icons .insta {
+  background-image: url(../images/instagram-brands.svg);
+}
+
+footer .footer-container .social-links .social-icons .insta:hover {
+  cursor: pointer;
+  background-image: url(../images/instagram-brands-pink.svg);
+  border: 1px solid #ff52bf;
+}
+
+footer .footer-container .social-links .social-icons .tiwtter {
+  background-image: url(../images/twitter-brands.svg);
+}
+
+footer .footer-container .social-links .social-icons .tiwtter:hover {
+  cursor: pointer;
+  background-image: url(../images/twitter-brands-pink.svg);
+  border: 1px solid #ff52bf;
 }
 
 footer .footer-container .social-links .social-icons .icon:nth-child(1) {
@@ -704,24 +722,6 @@ footer .footer-container .social-links .copyright p {
 .active-link:hover, .active-link a:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-
-.facebook:hover, .facebook:focus {
-  cursor: pointer;
-  background-image: url(../images/facebook-f-brands-pink.svg);
-  border: #ff52bf;
-}
-
-.insta:hover {
-  cursor: pointer;
-  background-image: url(../images/instagram-brands-pink.svg);
-  border: #ff52bf;
-}
-
-.tiwtter:hover {
-  cursor: pointer;
-  background-image: url(../images/twitter-brands-pink.svg);
-  border: #ff52bf;
 }
 
 .btn:hover {

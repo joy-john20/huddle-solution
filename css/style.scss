@@ -258,7 +258,7 @@ footer {
                     text-decoration: none;
                     color: #fff;
                     font-weight: 400;
-                    transition: 300ms ease;
+                    transition: 200ms ease;
                 }
             }
         }
@@ -268,15 +268,7 @@ footer {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                .facebook {
-                    background-image: url(../images/facebook-f-brands.svg);
-                }
-                .insta {
-                    background-image: url(../images/instagram-brands.svg);
-                }
-                .tiwtter {
-                    background-image: url(../images/twitter-brands.svg);
-                }
+                
                 .icon {
                     display: inline-block;
                     height: 34px;
@@ -287,9 +279,36 @@ footer {
                     margin-left: 15px;
                     margin-bottom: 2em;
                     background-size: 70% 70%;
-                    background-position: center;
+                    background-position: center center;
                     background-repeat: no-repeat;
-                    transition: 1s ease;
+                    transition: 200ms ease;
+                }
+                .facebook {
+                    background-image: url(../images/facebook-f-brands.svg);
+
+                    &:hover {
+                        cursor: pointer;
+                        background-image: url(../images/facebook-f-brands-pink.svg);
+                        border: 1px solid $pink;
+                    }
+                }
+                .insta {
+                    background-image: url(../images/instagram-brands.svg);
+
+                    &:hover {
+                        cursor: pointer;
+                        background-image: url(../images/instagram-brands-pink.svg);
+                        border: 1px solid $pink;
+                    }
+                }
+                .tiwtter {
+                    background-image: url(../images/twitter-brands.svg);
+
+                    &:hover {
+                        cursor: pointer;
+                        background-image: url(../images/twitter-brands-pink.svg);
+                        border: 1px solid $pink;
+                    }
                 }
                 .icon:nth-child(1){
                     margin-left: 0px;
@@ -722,24 +741,6 @@ footer {
 .active-link:hover, .active-link a:hover {
     cursor: pointer;
     text-decoration: underline;
-}
-
-.facebook:hover, .facebook:focus {
-    cursor: pointer;
-    background-image: url(../images/facebook-f-brands-pink.svg);
-    border: $pink;
-}
-
-.insta:hover {
-    cursor: pointer;
-    background-image: url(../images/instagram-brands-pink.svg);
-    border: $pink;
-}
-
-.tiwtter:hover {
-    cursor: pointer;
-    background-image: url(../images/twitter-brands-pink.svg);
-    border: $pink;
 }
 
 .btn:hover {
